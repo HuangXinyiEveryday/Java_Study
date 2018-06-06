@@ -2,7 +2,7 @@ Java for mac安装配置指南
 
 一、安装软件
 
-1.jdk—java运行环境
+1.jdk—java运行环境（请使用jdk1.8，否则后面会报很多错误，不好解决）
 
 2.IntelliJ IDEA—java IDE集成开发软件
 
@@ -13,6 +13,8 @@ Java for mac安装配置指南
 1.jdk官网下载http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
 2.IntelliJ IDEA-mac破解博客http://www.sdifen.com/intellijidea15.html
+
+​    旗舰版注册码 http://idea.lanyus.com
 
 3.tomcat 下载地址https://tomcat.apache.org
 
