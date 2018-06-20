@@ -121,3 +121,16 @@ git push -u origin/remote_branch
 git push origin local_branch:remote_branch
 ```
 
+**分支合并**
+
+```
+//进入需要推送的分支
+git checkout <branch_name>
+//合并自己修改的分支
+git merge <branch-name>
+//查看状态
+git status On  branch <branch-name>
+//推送分支
+git push origin <branch-name>
+```
+
