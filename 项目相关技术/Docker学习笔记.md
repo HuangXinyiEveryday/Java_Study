@@ -7,11 +7,21 @@ docker pull 镜像名:特定版本
 #默认下载最新版本
 ```
 
+#### **启动Docker服务（命令行）**
+
+```
+service docker start
+```
+
+
+
 #### Docker运行启动
 
 ```
 #运行镜像为容器的命令
 docker run -d -p [本机端口]:[docker服务器端口] --name container-name image-name
+//容器不需要自己独立的ip和网卡
+docker run -d --net=host --name container-name image-name
 ```
 
 #### Docker查看，删除镜像
